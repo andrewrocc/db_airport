@@ -31,7 +31,14 @@ namespace db_airport
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -50,16 +57,25 @@ namespace db_airport
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -90,6 +106,67 @@ namespace db_airport
             this.tabPage1.Text = "Аварейсы";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // button3
+            // 
+            this.button3.Enabled = false;
+            this.button3.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button3.Location = new System.Drawing.Point(650, 336);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(131, 35);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Удалить все";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Enabled = false;
+            this.button2.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Location = new System.Drawing.Point(692, 288);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(89, 35);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Удалить";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Font = new System.Drawing.Font("Lucida Grande", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox9.Location = new System.Drawing.Point(16, 336);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(206, 22);
+            this.textBox9.TabIndex = 4;
+            this.textBox9.Text = "Введите слово";
+            // 
+            // button1
+            // 
+            this.button1.Enabled = false;
+            this.button1.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(321, 288);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(89, 35);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Поиск";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Lucida Grande", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(13, 297);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(72, 18);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Поиск по:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(91, 297);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(203, 21);
+            this.comboBox1.TabIndex = 1;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.button4);
@@ -116,6 +193,17 @@ namespace db_airport
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Регистрация";
+            // 
+            // button4
+            // 
+            this.button4.Enabled = false;
+            this.button4.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button4.Location = new System.Drawing.Point(519, 212);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(89, 35);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Добавить";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // textBox8
             // 
@@ -255,10 +343,11 @@ namespace db_airport
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.groupBox2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(882, 434);
+            this.tabPage2.Size = new System.Drawing.Size(795, 386);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Пассажиры";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -268,82 +357,146 @@ namespace db_airport
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(882, 434);
+            this.tabPage3.Size = new System.Drawing.Size(795, 386);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Билеты";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // groupBox2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(91, 297);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(203, 21);
-            this.comboBox1.TabIndex = 1;
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.textBox12);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.textBox13);
+            this.groupBox2.Controls.Add(this.label13);
+            this.groupBox2.Controls.Add(this.textBox14);
+            this.groupBox2.Controls.Add(this.label14);
+            this.groupBox2.Controls.Add(this.textBox15);
+            this.groupBox2.Controls.Add(this.label15);
+            this.groupBox2.Controls.Add(this.textBox16);
+            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Controls.Add(this.textBox17);
+            this.groupBox2.Controls.Add(this.label17);
+            this.groupBox2.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox2.Location = new System.Drawing.Point(6, 6);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(707, 262);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Регистрация";
             // 
-            // label9
+            // button5
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Lucida Grande", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(13, 297);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 18);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Поиск по:";
+            this.button5.Enabled = false;
+            this.button5.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button5.Location = new System.Drawing.Point(607, 216);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(89, 35);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Добавить";
+            this.button5.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // textBox12
             // 
-            this.button1.Enabled = false;
-            this.button1.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(321, 288);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(89, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Поиск";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBox12.Location = new System.Drawing.Point(493, 69);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(203, 29);
+            this.textBox12.TabIndex = 11;
             // 
-            // textBox9
+            // label12
             // 
-            this.textBox9.Font = new System.Drawing.Font("Lucida Grande", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox9.Location = new System.Drawing.Point(16, 336);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(206, 22);
-            this.textBox9.TabIndex = 4;
-            this.textBox9.Text = "Введите слово";
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Lucida Grande", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label12.Location = new System.Drawing.Point(376, 74);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(45, 18);
+            this.label12.TabIndex = 10;
+            this.label12.Text = "Багаж";
             // 
-            // button2
+            // textBox13
             // 
-            this.button2.Enabled = false;
-            this.button2.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(692, 288);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(89, 35);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Удалить";
-            this.button2.UseVisualStyleBackColor = true;
+            this.textBox13.Location = new System.Drawing.Point(493, 24);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(203, 29);
+            this.textBox13.TabIndex = 9;
             // 
-            // button3
+            // label13
             // 
-            this.button3.Enabled = false;
-            this.button3.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(650, 336);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(131, 35);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Удалить все";
-            this.button3.UseVisualStyleBackColor = true;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Lucida Grande", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label13.Location = new System.Drawing.Point(376, 29);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(106, 18);
+            this.label13.TabIndex = 8;
+            this.label13.Text = "Дата рождения";
             // 
-            // button4
+            // textBox14
             // 
-            this.button4.Enabled = false;
-            this.button4.Font = new System.Drawing.Font("Lucida Grande", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(519, 212);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(89, 35);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Добавить";
-            this.button4.UseVisualStyleBackColor = true;
+            this.textBox14.Location = new System.Drawing.Point(110, 163);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(203, 29);
+            this.textBox14.TabIndex = 7;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Lucida Grande", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.Location = new System.Drawing.Point(7, 168);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(45, 18);
+            this.label14.TabIndex = 6;
+            this.label14.Text = "Билет";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(110, 115);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(203, 29);
+            this.textBox15.TabIndex = 5;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Lucida Grande", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label15.Location = new System.Drawing.Point(7, 121);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(61, 17);
+            this.label15.TabIndex = 4;
+            this.label15.Text = "Фамилия";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(110, 69);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(203, 29);
+            this.textBox16.TabIndex = 3;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Lucida Grande", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.Location = new System.Drawing.Point(7, 74);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(34, 18);
+            this.label16.TabIndex = 2;
+            this.label16.Text = "Имя";
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(110, 24);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(203, 29);
+            this.textBox17.TabIndex = 1;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Lucida Grande", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label17.Location = new System.Drawing.Point(7, 29);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(85, 18);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "№ паспорта";
             // 
             // Form1
             // 
@@ -358,6 +511,9 @@ namespace db_airport
             this.tabPage1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -392,6 +548,20 @@ namespace db_airport
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.Label label17;
     }
 }
 
