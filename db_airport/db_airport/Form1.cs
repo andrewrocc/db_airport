@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace db_airport
 {
@@ -15,6 +9,21 @@ namespace db_airport
         public Form1()
         {
             InitializeComponent();
+        }
+        SqlConnection connect;
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //при загрузке окна проверяем соединение с SQLServer
+            try
+            {
+                connect = new SqlConnection(@"Data Source=DESKTOP-AR14CLQ\SQLEXPRESS;Initial Catalog=Kurswork;Integrated Security=True");
+                connect.Open();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка соединения!\n{ex.Message}", "Error!");
+                Application.Exit();
+            }
         }
     }
 }
