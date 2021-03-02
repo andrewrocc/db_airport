@@ -1,0 +1,10 @@
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\bin\Debug\db_airport.exe.config
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\bin\Debug\db_airport.exe
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\bin\Debug\db_airport.pdb
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\obj\Debug\db_airport.csprojAssemblyReference.cache
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\obj\Debug\db_airport.Form1.resources
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\obj\Debug\db_airport.Properties.Resources.resources
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\obj\Debug\db_airport.csproj.GenerateResource.cache
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\obj\Debug\db_airport.csproj.CoreCompileInputs.cache
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\obj\Debug\db_airport.exe
+D:\Даник\Учеба\4 семестр\ООП\Курсовая работа\Исходник\Код\db_airport\db_airport\db_airport\obj\Debug\db_airport.pdb
