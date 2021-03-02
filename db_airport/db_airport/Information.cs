@@ -7,13 +7,13 @@ namespace db_airport
     [Serializable]
     class Information_About_Airplane
     {
-        private readonly string Airline;
-        private readonly string NumberFlight;
-        private readonly string ArrivalAirport; 
-        private readonly string DepartureAirport;
-        private readonly DateTime dateTimeArrival;
-        private readonly DateTime dateTimeDeparture;
-        private readonly int NumberOfSeats;
+        private string Airline;
+        private string NumberFlight;
+        private string ArrivalAirport; 
+        private string DepartureAirport;
+        private DateTime dateTimeArrival;
+        private DateTime dateTimeDeparture;         // время отправления
+        private int NumberOfSeats;                  // счетски количества мест
         public Information_About_Airplane(string Airline, string NumberFlight, string ArrivalAirport,
             string DepartureAirport, DateTime dateTimeArrival, DateTime dateTimeDeparture, int NumberOfSeats)
         {
