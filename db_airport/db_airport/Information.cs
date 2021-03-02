@@ -5,7 +5,7 @@ namespace db_airport
     //данные регистрации
     //класс предназначен для сериализации информации в XML и log файл
     [Serializable]
-    class Information_About_Airplane
+    class Information_About_Airplane                    // так так новый комент для теста
     {
         private string Airline;                     // авиакомпания
         private string NumberFlight;                // Номер рейса
